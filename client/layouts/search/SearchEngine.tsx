@@ -127,6 +127,8 @@ const SearchEngine: FunctionComponent<SearchEngineProps> = () => {
             if (e.target.value === '') {
               setList(() => []);
               setIsSearch(() => false);
+              setRecentSearch('');
+              setNoResultMsg(false);
             }
             setInputValue(e.target.value);
           }}
