@@ -15,11 +15,11 @@ import commentsRouter from "./comments.js";
 const router = express.Router();
 
 router.get("/", async (req, res) => {
-  console.log(req.query);
+  // console.log(req.query);
   const { pageNum, count } = req.query;
   const { username } = req.query;
   // 이름 바꾸는 부분
-  console.log(pageNum, count, username);
+  // console.log(pageNum, count, username)
   if (pageNum !== undefined && count !== undefined) {
     const pageNumber = parseInt(pageNum);
     const nPerPage = parseInt(count);
@@ -41,6 +41,8 @@ router.get("/", async (req, res) => {
         return obj;
       })
     );
+
+    // console.log(dbQueryRes[0]._id?.toString());
 
     // res.status(200).send('hi');
     return;
