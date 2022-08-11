@@ -2,6 +2,8 @@
 
 <br/>
 
+![](client/public/sdao-logo-col.png)
+
 
 Table of Contents
 -----------------
