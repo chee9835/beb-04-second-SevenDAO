@@ -2,7 +2,7 @@
 
 <br/>
 
-![](client/public/sdao-logo-col.png)
+![](client/public/sdao-logo-row.png)
 
 
 Table of Contents
